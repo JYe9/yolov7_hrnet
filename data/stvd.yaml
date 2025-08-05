@@ -1,0 +1,10 @@
+train: /home/jye00001/fsdata/STVD/train/images
+val: /home/jye00001/fsdata/STVD/val/images
+
+nc: 3
+names: ['car', 'truck', 'bus']
+
+# Spatiotemporal settings
+channels: 7  # 7-channel input (2×RGB + difference)
+augment: False  # Disable augmentation
+rect: False  # Disable rectangular training
